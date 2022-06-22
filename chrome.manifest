@@ -1,0 +1,3 @@
+content	sindecnofirefox								chrome/content/
+locale	sindecnofirefox								pt-BR	chrome/locale/pt-BR/
+overlay	chrome://browser/content/browser.xul	chrome://sindecnofirefox/content/sindecNoFirefox.xul

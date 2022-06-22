@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:name>Sindec no Firefox</em:name>
+		<em:creator>Josemar Souza</em:creator>
+		<em:description>Este complemento torna a página do Sindec de vários estados compatível com o navegador Mozilla Firefox.</em:description>
+		<em:homepageURL>http://eratec.blogspot.com.br/2015/09/sindec-no-firefox.html</em:homepageURL>
+		<em:id>sindecNoFirefox@josemar.souza</em:id>
+		<em:version>1.0</em:version>
+		<em:type>2</em:type>
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:maxVersion>44.0</em:maxVersion>
+				<em:minVersion>32.*</em:minVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>
+	

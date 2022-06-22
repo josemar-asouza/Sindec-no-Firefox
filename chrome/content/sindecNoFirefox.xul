@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<overlay id="sindecnofirefox" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://sindecnofirefox/content/sindecNoFirefox.js" />
+	
+	<menupopup id="menu_ToolsPopup">
+    <menu id="sindecnofirefox-menu" class="menuitem-iconic" insertafter="devToolsSeparator" label="Sindec no Firefox">
+      <menupopup id="sindecnofirefox-popup-menu">
+			<menuitem id="sindecEnabled" label="Ativado" type="checkbox" oncommand="checkboxClick(event, true)" />
+			<menuitem id="sindecDisabled" label="Desativado" type="checkbox" oncommand="checkboxClick(event, false)" />
+      </menupopup>
+    </menu>
+  </menupopup>
+
+</overlay>
+
+
+

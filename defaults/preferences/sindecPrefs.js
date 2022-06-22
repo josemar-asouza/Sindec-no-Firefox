@@ -1,0 +1,1 @@
+pref("extensions.sindecNoFirefox.active", true);
